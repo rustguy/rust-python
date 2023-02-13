@@ -27,3 +27,19 @@ Python
 x = 5
 print(f"Variable x equals to {x}")
 ```
+
+## Random number in range
+
+Rust
+```
+use rand::Rnd;
+
+let n = rand::thread_rng().gen_range(0..10)
+```
+
+Python
+```
+import random
+
+n = random.randint(0, 10)
+```
