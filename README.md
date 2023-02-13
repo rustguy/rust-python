@@ -76,7 +76,7 @@ sys.exit(255)
 
 Rust
 ```
-let args = std::env::args()
+let args = std::env::args();
 ```
 
 Python
