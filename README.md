@@ -57,3 +57,17 @@ Python
 x = "1024"
 i = int(x)
 ```
+
+## Exit with code
+
+Rust
+```
+sys::process.exit(255)
+```
+
+Python
+```
+import sys
+
+sys.exit(255)
+```
