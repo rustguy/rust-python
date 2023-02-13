@@ -71,3 +71,17 @@ import sys
 
 sys.exit(255)
 ```
+
+## Read command line arguments
+
+Rust
+```
+let args = std::env::args()
+```
+
+Python
+```
+import sys
+
+args = sys.argv
+```
