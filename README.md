@@ -43,3 +43,17 @@ import random
 
 n = random.randint(0, 10)
 ```
+
+## String to int
+
+Rust
+```
+let my_str = ""1024".to_string();
+let my_int: i32 = my_string.parse();
+```
+
+Python
+```
+x = "1024"
+i = int(x)
+```
